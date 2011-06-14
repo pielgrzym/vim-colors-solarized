@@ -777,7 +777,7 @@ exe "hi pythonOctNumber"    .s:fmt_none .s:fg_cyan   .s:bg_none
 exe "hi pythonTripleString" .s:fmt_none .s:fg_cyan   .s:bg_none
 " builtin highlighting
 exe "hi pythonBuiltinObj"   .s:fmt_none .s:fg_yellow .s:bg_none
-exe "hi pythonBuiltinFunc"  .s:fmt_ital .s:fg_blue   .s:bg_none
+exe "hi pythonBuiltinFunc"  .s:fmt_none .s:fg_blue   .s:bg_none
 " error highlighting
 exe "hi pythonIndentError"  .s:fmt_none .s:fg_none   .s:bg_red
 exe "hi pythonSpaceError"   .s:fmt_none .s:fg_none   .s:bg_red
