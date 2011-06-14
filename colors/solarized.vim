@@ -771,12 +771,12 @@ exe "hi! javaScript"        .s:fmt_none .s:fg_yellow .s:bg_none
 " ---------------------------------------------------------------------
 " exe "hi pythonDot"          .s:fmt_none .s:fg_base01 .s:bg_none
 " exe "hi pythonPreCondit"    .s:fmt_none .s:fg_base01 .s:bg_none
-" exe "hi pythonNumber"       .s:fmt_none .s:fg_base01 .s:bg_none
-" exe "hi pythonFloat"        .s:fmt_none .s:fg_base01 .s:bg_none
-" exe "hi pythonHexNumber"    .s:fmt_none .s:fg_base01 .s:bg_none
-" exe "hi pythonOctNumber"    .s:fmt_none .s:fg_base01 .s:bg_none
-" exe "hi pythonBuiltinObj"   .s:fmt_none .s:fg_base01 .s:bg_none
-" exe "hi pythonBuiltinFunc"  .s:fmt_none .s:fg_base01 .s:bg_none
+exe "hi pythonNumber"       .s:fmt_none .s:fg_yellow .s:bg_none
+exe "hi pythonFloat"        .s:fmt_none .s:fg_yellow .s:bg_none
+exe "hi pythonHexNumber"    .s:fmt_none .s:fg_yellow .s:bg_none
+exe "hi pythonOctNumber"    .s:fmt_none .s:fg_yellow .s:bg_none
+exe "hi pythonBuiltinObj"   .s:fmt_none .s:fg_blue   .s:bg_none
+exe "hi pythonBuiltinFunc"  .s:fmt_none .s:fg_blue   .s:bg_none
 exe "hi pythonIndentError"  .s:fmt_none .s:fg_base01 .s:bg_none
 exe "hi pythonSpaceError"   .s:fmt_none .s:fg_none   .s:bg_red
 " exe "hi pythonDecorator"    .s:fmt_none .s:fg_none   .s:bg_red
