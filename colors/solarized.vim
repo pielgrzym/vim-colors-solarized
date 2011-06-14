@@ -783,6 +783,8 @@ exe "hi pythonIndentError"  .s:fmt_none .s:fg_none   .s:bg_red
 exe "hi pythonSpaceError"   .s:fmt_none .s:fg_none   .s:bg_red
 exe "hi pythonOctError"     .s:fmt_none .s:fg_red    .s:bg_none
 exe "hi pythonBinError"     .s:fmt_none .s:fg_red    .s:bg_none
+" imports highlighting
+exe "hi pythonPreCondit"    .s:fmt_none .s:fg_red    .s:bg_none
 "}}}
 " perl highlighting "{{{
 " ---------------------------------------------------------------------
