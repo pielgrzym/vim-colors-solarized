@@ -774,10 +774,10 @@ exe "hi pythonNumber"       .s:fmt_none .s:fg_cyan   .s:bg_none
 exe "hi pythonFloat"        .s:fmt_none .s:fg_cyan   .s:bg_none
 exe "hi pythonHexNumber"    .s:fmt_none .s:fg_cyan   .s:bg_none
 exe "hi pythonOctNumber"    .s:fmt_none .s:fg_cyan   .s:bg_none
-exe "hi pythonTripleString" .s:fmt_ital .s:fg_cyan   .s:bg_none
+exe "hi pythonTripleString" .s:fmt_none .s:fg_cyan   .s:bg_none
 " builtin highlighting
-exe "hi pythonBuiltinObj"   .s:fmt_none .s:fg_blue   .s:bg_none
-exe "hi pythonBuiltinFunc"  .s:fmt_none .s:fg_blue   .s:bg_none
+exe "hi pythonBuiltinObj"   .s:fmt_ital .s:fg_blue   .s:bg_none
+exe "hi pythonBuiltinFunc"  .s:fmt_ital .s:fg_blue   .s:bg_none
 " error highlighting
 exe "hi pythonIndentError"  .s:fmt_none .s:fg_none   .s:bg_red
 exe "hi pythonSpaceError"   .s:fmt_none .s:fg_none   .s:bg_red
