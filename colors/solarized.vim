@@ -767,6 +767,32 @@ exe "hi! htmlSpecialTagName".s:fmt_ital .s:fg_blue   .s:bg_none
 exe "hi! htmlArg"           .s:fmt_none .s:fg_base00 .s:bg_none
 exe "hi! javaScript"        .s:fmt_none .s:fg_yellow .s:bg_none
 "}}}
+" python highlighting "{{{
+" ---------------------------------------------------------------------
+" exe "hi pythonDot"          .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonPreCondit"    .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonNumber"       .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonFloat"        .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonHexNumber"    .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonOctNumber"    .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonBuiltinObj"   .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonBuiltinFunc"  .s:fmt_none .s:fg_base01 .s:bg_none
+exe "hi pythonIndentError"  .s:fmt_none .s:fg_base01 .s:bg_none
+exe "hi pythonSpaceError"   .s:fmt_none .s:fg_none   .s:bg_red
+" exe "hi pythonDecorator"    .s:fmt_none .s:fg_none   .s:bg_red
+" exe "hi pythonDottedName"   .s:fmt_none .s:fg_base01 .s:bg_none
+exe "hi pythonComment"      .s:fmt_ital .s:fg_base01 .s:bg_none
+exe "hi pythonTripleString" .s:fmt_ital .s:fg_base01 .s:bg_none
+
+" exe "hi pythonException"    .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonConditional"  .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi pythonOperator"     .s:fmt_none .s:fg_base01 .s:bg_none
+"hi pythonRepeat
+
+" exe "hi djangoTagBlock"     .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi djangoVarBlock"     .s:fmt_none .s:fg_base01 .s:bg_none
+" exe "hi djangoStatement"    .s:fmt_none .s:fg_base01 .s:bg_none
+"}}}
 " perl highlighting "{{{
 " ---------------------------------------------------------------------
 exe "hi! perlHereDoc"    . s:fg_base1  .s:bg_back   .s:fmt_none
